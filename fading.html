@@ -12,9 +12,20 @@
 
     $("document").ready(function () {
 
-      $(".text").hover(function () {
-        // toggleClass add some css class to a object
-        $(this).toggleClass("highlight");
+      $("#fade-in").on("click", function () {
+
+        $("#textBox").fadeIn(2000, function () {
+          alert("Fade In is done!");
+        });
+
+      });
+
+      $("#fade-out").on("click", function () {
+
+        $("#textBox").fadeOut("fast", function () {
+          alert("Fade Out is done!");
+        });
+
       });
 
     });
@@ -22,8 +33,8 @@
   </script>
 
   <style>
-    .highlight {
-      background: #feff00;
+    #textBox {
+      display: none;
     }
   </style>
 
@@ -31,8 +42,10 @@
 
 <body>
 
+  <a href="#" id="fade-in">Fade In</a> | <a href="#" id="fade-out">Fade Out</a>
+
   <div id="textBox">
-    <p class="text">
+    <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
       magna
       aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
