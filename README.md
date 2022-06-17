@@ -12,3 +12,4 @@ In this project I'm learning how to use some basic features of jQuery. My intent
 - **fading**: show how to fade-in and fade-out a div 
 - **slide**: show how to slide a html element, it's nice when you want to toggle a div.
 - **toggle**: show how to toggle a html element, another example.
+- **animation**: show how to animate a html element.
