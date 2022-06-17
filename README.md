@@ -10,3 +10,4 @@ In this project I'm learning how to use some basic features of jQuery. My intent
 - **hide_show**: show how to show and hide a div using jQuery
 - **hover**: show how to hightlight a paragraph using hover
 - **fading**: show how to fade-in and fade-out a div 
+- **slide**: show how to slide a html element, it's nice when you want to toggle a div.
